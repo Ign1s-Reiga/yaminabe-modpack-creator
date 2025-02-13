@@ -1,0 +1,8 @@
+[build]
+target = "./index.html"
+
+[serve]
+address = "localhost"
+port = 1420
+open = false
+ws_protocol = "ws"
