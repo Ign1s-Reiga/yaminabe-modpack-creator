@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    yaminabe_modpack_creator_lib::run()
+    yaminabe_launcher_lib::run()
 }

@@ -1,14 +1,15 @@
 [package]
-name = "src-ui"
-description = "UI Package for Yaminabe Modpack Creator"
+name = "yaminabe-launcher-ui"
 version.workspace = true
 authors.workspace = true
 edition.workspace = true
 
 [dependencies]
-console_error_panic_hook = "0.1.7"
-leptos = { version = "0.7", features = ["csr"] }
-serde = { version = "1.0", features = ["derive"] }
-serde-wasm-bindgen = "0.4"
+leptos = { version = "0.8", features = ["csr"] }
 wasm-bindgen = "0.2"
 wasm-bindgen-futures = "0.4"
+js-sys = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde-wasm-bindgen = "0.6"
+console_error_panic_hook = "0.1.7"
+stylance = "0.6.0"

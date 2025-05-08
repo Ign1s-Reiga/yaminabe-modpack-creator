@@ -1,9 +1,11 @@
-# Yaminabe Modpack Creator
+# Yaminabe Launcher
 
-<p style="text-align: center">Yaminabe Modpack Creator supports creating modpacks like a Yaminabe.</p>
 
-## Features
+<p style="text-align: center">Yaminabe Launcher supports creating modpacks like a Yaminabe.</p>
 
-- Create a modpack that consists of random mods.
-- Configure number of mods that will be included in the modpack.
-- Filter mods by categories. (e.g. API and Library, Technology, Magic, etc.)
+## Features to implement
+
+[] Create a modpack that consists of random mods.
+[] Configure number of mods that will be included in the modpack.
+[] Filter mods by categories. (e.g. API and Library, Technology, Magic, etc.)
+[] Create instance and launch it.

@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "yaminabe-modpack-creator",
+  "productName": "yaminabe-launcher",
   "version": "0.1.0",
-  "identifier": "com.yaminabe-modpack-creator.app",
+  "identifier": "net.reiga7953.yaminabe-launcher.app",
   "build": {
     "beforeDevCommand": {
       "script": "trunk serve",
@@ -12,16 +12,16 @@
       "script": "trunk build",
       "cwd": "../src-ui"
     },
-    "devUrl": "http://localhost:1420",
+    "devUrl": "http://127.0.0.1:1420",
     "frontendDist": "../src-ui/dist"
   },
   "app": {
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "Yaminabe Modpack Creator",
-        "width": 1200,
-        "height": 800
+        "title": "Yaminabe Launcher",
+        "width": 1366,
+        "height": 768
       }
     ],
     "security": {

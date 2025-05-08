@@ -1,4 +1,3 @@
-.vscode/
+.idea/
 target/
-src-ui/dist/
-/Cargo.lock
+Cargo.lock
